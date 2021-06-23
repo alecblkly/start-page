@@ -55,6 +55,7 @@ table {
 * {
   background: #101010;
   color: #DCDCDC;
+  font-family: monospace;
 }
 
 #info {
@@ -82,19 +83,15 @@ table {
 #main-content {
   display: flex;
   justify-content: space-evenly;
-  border: 1px;
+  align-items: flex-start;
+  border: 0.063rem;
   border-style: solid;
   border-radius: 15px;
   border-color: #DCDCDC;
-  width: 650px;
-  height: 325px;
+  width: 40.625rem;
+  height: 20.313rem;
   margin: 2%;
-}
-
-.btn-main {
-  color: #DCDCDC;
   padding-top: 2%;
-  font-size: 1.125rem;
 }
 
 @keyframes blinking {
