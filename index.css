@@ -65,7 +65,8 @@ table {
   padding: 2%;
   font-size: 1.6rem;
 }
-#info #cursor {
+
+#cursor {
   width: 1px;
   height: auto;
   color: #DCDCDC;
@@ -76,6 +77,22 @@ table {
   animation-fill-mode: forwards;
   animation-timing-function: steps(2, end);
   opacity: 1;
+}
+
+#main-content {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #DCDCDC;
+  width: 650px;
+  height: 325px;
+  margin: 2%;
+}
+
+#links-one, #links-two, #links-three, #links-four {
+  padding-top: 1%;
 }
 
 @keyframes blinking {
